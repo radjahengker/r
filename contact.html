@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Dapur Mulia</title>
+    <meta name="description" content="Hubungi Dapur Mulia - Pemesanan kue, hampers, oleh-oleh di Aceh Utara">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="https://wa.me/6281271273063" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i><span>Chat WhatsApp</span></a>
+    
+    <div class="top-bar d-none d-md-block">
+        <div class="container d-flex justify-content-between">
+            <div><span><i class="fas fa-phone-alt"></i> 0812-7127-3063</span></div>
+            <div><a href="https://www.tiktok.com/@dapurmulia" target="_blank"><i class="fab fa-tiktok"></i></a><a href="https://wa.me/6281271273063" class="ms-2"><i class="fab fa-whatsapp"></i></a></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="index.html"><span class="text-primary">Dapur</span> Mulia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Kontak</a></li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <a href="cart.html" class="btn btn-outline-primary position-relative"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                    <a href="login.html" class="btn btn-primary"><i class="fas fa-user me-1"></i>Masuk</a>
+                </div>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Hubungi Kami</h1>
+            <nav><ol class="breadcrumb"><li class="breadcrumb-item"><a href="index.html">Beranda</a></li><li class="breadcrumb-item active">Kontak</li></ol></nav>
+        </div>
+    
+    <section class="section py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <small class="text-primary fw-bold text-uppercase">Kontak</small>
+                    <h2 class="fw-bold mb-4">Mari Terhubung</h2>
+                    
+                    <div class="contact-item"><i class="fab fa-whatsapp"></i><div><h6>WhatsApp</h6><a href="https://wa.me/6281271273063">0812-7127-3063</a></div>
+                    <div class="contact-item"><i class="fab fa-tiktok"></i><div><h6>TikTok</h6><a href="https://www.tiktok.com/@dapurmulia" target="_blank">@dapurmulia</a></div>
+                    <div class="contact-item"><i class="fas fa-envelope"></i><div><h6>Email</h6><a href="mailto:info@dapurmulia.com">info@dapurmulia.com</a></div>
+                    <div class="contact-item"><i class="fas fa-map-marker-alt"></i><div><h6>Alamat</h6><p class="mb-0">Geulumpang Sulu Barat, Kec. Dewantara, Kab. Aceh Utara, Aceh</p></div>
+                    
+                    <div class="mt-4">
+                        <h5 class="fw-bold">Ikuti Kami</h5>
+                        <div class="d-flex gap-2">
+                            <a href="https://wa.me/6281271273063" class="btn btn-success"><i class="fab fa-whatsapp me-2"></i>WhatsApp</a>
+                            <a href="https://www.tiktok.com/@dapurmulia" class="btn btn-dark"><i class="fab fa-tiktok me-2"></i>TikTok</a>
+                            <a href="#" class="btn btn-danger"><i class="fab fa-instagram me-2"></i>Instagram</a>
+                        </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="checkout-card">
+                        <h5 class="card-title"><i class="fas fa-paper-plane me-2 text-primary"></i>Kirim Pesan</h5>
+                        <form onsubmit="event.preventDefault();window.open('https://wa.me/6281271273063?text=Halo%20Dapur%20Mulia!%0ANama:%20'+encodeURIComponent(document.getElementById('msgName').value)+'%0APesan:%20'+encodeURIComponent(document.getElementById('msgText').value),'_blank');">
+                            <div class="mb-3"><input type="text" id="msgName" class="form-control" placeholder="Nama Anda" required></div>
+                            <div class="mb-3"><textarea id="msgText" class="form-control" rows="4" placeholder="Tulis pesan..." required></textarea></div>
+                            <button type="submit" class="btn btn-primary w-100"><i class="fab fa-whatsapp me-2"></i>Kirim via WhatsApp</button>
+                        </form>
+                    </div>
+            </div>
+    </section>
+
+    <footer class="footer pt-5 pb-3 bg-dark text-white">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold"><span class="text-primary">Dapur</span> Mulia</h5>
+                    <p class="text-white-50 small">UMKM kue tradisional & modern premium dari Aceh Utara.</p>
+                    <div class="social-links"><a href="https://wa.me/6281271273063" class="social-link"><i class="fab fa-whatsapp"></i></a><a href="https://www.tiktok.com/@dapurmulia" class="social-link"><i class="fab fa-tiktok"></i></a></div>
+                <div class="col-lg-2 col-6">
+                    <h6 class="fw-bold">Menu</h6>
+                    <ul class="list-unstyled small"><li class="mb-2"><a href="index.html" class="text-white-50 text-decoration-none">Beranda</a></li><li class="mb-2"><a href="products.html" class="text-white-50 text-decoration-none">Produk</a></li><li class="mb-2"><a href="about.html" class="text-white-50 text-decoration-none">Tentang</a></li><li class="mb-2"><a href="contact.html" class="text-white-50 text-decoration-none">Kontak</a></li></ul>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h6 class="fw-bold">Kontak</h6>
+                    <ul class="list-unstyled small text-white-50"><li class="mb-2"><i class="fab fa-whatsapp me-2"></i>0812-7127-3063</li><li class="mb-2"><i class="fab fa-tiktok me-2"></i>@dapurmulia</li></ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="fw-bold">Alamat</h6>
+                    <p class="small text-white-50 mb-0"><i class="fas fa-map-marker-alt me-2"></i>Geulumpang Sulu Barat, Aceh Utara</p>
+                </div>
+            <hr class="border-secondary my-4">
+            <p class="text-center text-white-50 small mb-0">&copy; 2026 Dapur Mulia | Universitas Malikussaleh</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
